@@ -308,6 +308,77 @@ body {
 }
 
 
+#testimonials {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #ddd;
+}
+
+
+.testimonial-carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.testimonial {
+  display: none;
+  animation: fade 1s ease-in-out;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.testimonial h4 {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
 .footer {
   background: #004d40;
   color: white;
