@@ -85,6 +85,15 @@ body {
   width: 200px;
 }
 
+.impact-image-container img {
+  width: 100%;
+  max-width: 800px;  /* Adjust the max width as per your preference */
+  height: auto;
+  display: block;
+  margin: 0 auto;  /* Centers the image horizontally */
+}
+
+
 .footer {
   background: #004d40;
   color: white;
