@@ -52,7 +52,7 @@ Once the dependencies are installed, you can run the development server:<br>
 This will launch the project on http://localhost:3000 <br>
 
 
-##Technologies Used<br>
+Technologies Used<br>
 -HTML: Markup language used to structure the content.<br>
 
 -CSS: Used for styling the website.<br>
@@ -66,19 +66,19 @@ This will launch the project on http://localhost:3000 <br>
 -Google Fonts: Used to style the website text with custom fonts.<br>
 
 
-###Deployment<br>
+Deployment<br>
 -The website is deployed live on Vercel. You can access it here:<br>
 (https://malu-foundation.vercel.app/)<br>
 
 
-###License<br>
+License<br>
 
 
 .This project is open-source and available under the MIT License.<br>
 
 
 
-###Contact<br>
+Contact<br>
 If you have any questions or suggestions, feel free to reach out to me:<br>
 
 Email: marylucyatieno1@gmail.com<br>
