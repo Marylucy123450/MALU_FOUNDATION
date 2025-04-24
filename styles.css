@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -183,13 +183,14 @@ body {
   background-color: #fff;
   text-align: center;
 }
-.graduate img {
-  width: 150px; /* Set a fixed width */
-  height: 150px; /* Set a fixed height to make it a perfect circle */
-  border-radius: 50%; /* Makes the image round */
-  object-fit: cover; /* Ensures the image fills the circle without distortion */
-  margin-bottom: 10px; /* Adds some space between the image and the text */
-}
+
+  .graduate img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* ensures images stay proportionate */
+  }
+  
 
 .graduate p {
   font-size: 1rem;
@@ -197,6 +198,20 @@ body {
   margin-top: 1rem;
 }
 
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #00796b;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffca28;
+}
 
 
 .footer {
