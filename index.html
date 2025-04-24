@@ -113,7 +113,6 @@
 
 
   <!-- Donate Section -->
-  <!-- Donate Section -->
 <section id="donate" class="section">
   <h2>Support Our Work</h2>
   <p>Your donation helps a child stay in school. Every coin counts.</p>
@@ -126,8 +125,9 @@
     <label for="name">Full Name</label>
     <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <!-- Conditionally Display Email or Phone Number -->
+    <label for="contact">Email Address / M-Pesa Number</label>
+    <input type="text" id="contact" name="contact" placeholder="Enter your email or phone number" required>
 
     <label for="amount">Donation Amount</label>
     <input type="number" id="amount" name="amount" placeholder="Enter donation amount" required>
@@ -140,8 +140,8 @@
     </select>
 
     <button type="submit">Donate Now</button>
-  </form>
-</section>
+</form>
+
 
   <!-- Contact Section -->
   <section id="contact" class="section" data-aos="fade-up">
