@@ -93,6 +93,42 @@ body {
   margin: 0 auto;  /* Centers the image horizontally */
 }
 
+#graduates {
+  padding: 2rem;
+  background-color: #f7f7f7; /* Light background color for contrast */
+  text-align: center;
+}
+
+.graduates-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.graduate {
+  width: 250px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
+.graduate img {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height to make it a perfect circle */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
+  margin-bottom: 10px; /* Adds some space between the image and the text */
+}
+
+.graduate p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+
 
 .footer {
   background: #004d40;
