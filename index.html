@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MALU_FOUNDATION</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  </style>
 </head>
 <body>
 
@@ -29,16 +34,34 @@
   </section>
 
   <!-- About Section -->
-<section id="about" class="section">
+<section id="about" class="section about-section">
   <h2>About MALU_FOUNDATION</h2>
-  <p>We are dedicated to making education accessible for all by supporting students through scholarships, mentorship, and community engagement.</p>
+  <p class="about-intro">
+    We are dedicated to making education accessible for all by supporting students through 
+    scholarships, mentorship, and community engagement.
+  </p>
 
-  <h3>Our Mission</h3>
-  <p>To unlock the potential of underserved students across Kenya by providing access to quality education, mentorship, and sustainable opportunities that empower them to shape their own futures.</p>
+  <div class="about-content">
+    <!-- Mission Block -->
+    <div class="about-block">
+      <img src="./images/mission.jpg" alt="Our Mission" class="about-img" />
+      <div>
+        <h3>Our Mission</h3>
+        <p>To unlock the potential of underserved students across Kenya by providing access to quality education, mentorship, and sustainable opportunities that empower them to shape their own futures.</p>
+      </div>
+    </div>
 
-  <h3>Our Vision</h3>
-  <p>A future where every child in Kenya, regardless of background, has the tools, support, and confidence to become a changemaker in their community and beyond.</p>
+    <!-- Vision Block -->
+    <div class="about-block reverse">
+      <img src="./images/vision.jpg" alt="Our Vision" class="about-img" />
+      <div>
+        <h3>Our Vision</h3>
+        <p>A future where every child in Kenya, regardless of background, has the tools, support, and confidence to become a changemaker in their community and beyond.</p>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 
  <!-- Impact Section -->
