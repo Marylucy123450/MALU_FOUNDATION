@@ -6,7 +6,7 @@ body {
 }
 
 section {
-  scroll-margin-top: 100px; /* adjust based on navbar height */
+  scroll-margin-top: 100px; 
 }
 
 
@@ -161,15 +161,15 @@ section {
 
 .impact-image-container img {
   width: 100%;
-  max-width: 800px;  /* Adjust the max width as per your preference */
+  max-width: 800px; 
   height: auto;
   display: block;
-  margin: 0 auto;  /* Centers the image horizontally */
+  margin: 0 auto; 
 }
 
 #graduates {
   padding: 2rem;
-  background-color: #f7f7f7; /* Light background color for contrast */
+  background-color: #f7f7f7; 
   text-align: center;
 }
 
@@ -193,7 +193,7 @@ section {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover; /* ensures images stay proportionate */
+    object-fit: cover; 
   }
   
 
@@ -218,7 +218,7 @@ section {
   color: #ffca28;
 }
 
-/* Donation Section */
+
 #donate {
   padding: 50px 20px;
   text-align: center;
